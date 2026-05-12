@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AddApptr/RTBSDK.git", exact: "1.10.0"),
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", "13.4.0"..<"13.6.0"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .upToNextMinor(from: "13.5.1")),
     ],
     targets: [
         .target(
