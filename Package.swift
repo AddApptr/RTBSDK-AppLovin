@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AddApptr/RTBSDK.git", exact: "1.10.0"),
+        .package(url: "https://github.com/AddApptr/RTBSDK.git", exact: "1.10.0-beta1"),
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .upToNextMinor(from: "13.5.1")),
     ],
     targets: [
@@ -31,8 +31,8 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "GraviteRTBAppLovinMediationAdapter",
-            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.10.0/GraviteRTBAppLovinMediationAdapter.zip",
-            checksum: "0000000000000000000000000000000000000000000000000000000000000000"
+            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.10.0-beta1/GraviteRTBAppLovinMediationAdapter.zip",
+            checksum: "dd2e150376595e3ee2eceef51600ff86c9ce9d71dcf9b99043e1254810f59ed9"
         ),
     ]
 )
