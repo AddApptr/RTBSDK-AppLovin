@@ -31,8 +31,8 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "GraviteRTBAppLovinMediationAdapter",
-            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.10.0-beta1/GraviteRTBAppLovinMediationAdapter.zip",
-            checksum: "dd2e150376595e3ee2eceef51600ff86c9ce9d71dcf9b99043e1254810f59ed9"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/rtbsdk/ios/spm/1.10.0-beta2/GraviteRTBAppLovinMediationAdapter.zip",
+            checksum: "62fc8af86b14a6a7cbc504a57124b6040bf72361f112d909f6cfef698dac3300"
         ),
     ]
 )
